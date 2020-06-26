@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply p-12;
+}
+
+.status {
+  font-size: 20vw;
+}
+.status span {
+  display: inline-block;
+}
+
+@tailwind utilities;
